@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Spark local files
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Generated output
+output/
+
+# Logs
+*.log
+
+# Secrets and keys
+.env
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
